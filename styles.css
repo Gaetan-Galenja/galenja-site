@@ -667,3 +667,48 @@ img {
   }
 }
 
+.page-hero-local {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+}
+
+.page-hero-contact {
+  background: linear-gradient(135deg, var(--ink), var(--primary));
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.contact-line {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding: 14px 0;
+}
+
+.contact-label {
+  color: var(--primary);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+  min-width: 110px;
+}
+
+.contact-value {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.contact-value:hover {
+  color: var(--primary);
+}
+
+.page-hero .btn {
+  margin-top: 14px;
+}
+

@@ -526,6 +526,25 @@ img {
   font-size: 1.08rem;
 }
 
+.page-hero-automation {
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+}
+
+.page-hero .container.smaller {
+  max-width: 820px;
+}
+
+.one-thirds {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.white-card,
+.section,
+.container,
+.page-hero {
+  position: relative;
+}
+
 .page-hero-particuliers {
   background: linear-gradient(135deg, var(--primary), #123056);
 }
